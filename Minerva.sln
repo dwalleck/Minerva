@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81874375-11E2-41A5-8215-E32C570B60EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{34C8520F-F2EC-4528-8B9E-6537A979F310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerva.DataAccess", "src\Shared\Minerva.DataAccess\Minerva.DataAccess.csproj", "{12299A9B-1EA4-43EA-A3A9-E3531800BD2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12299A9B-1EA4-43EA-A3A9-E3531800BD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12299A9B-1EA4-43EA-A3A9-E3531800BD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12299A9B-1EA4-43EA-A3A9-E3531800BD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12299A9B-1EA4-43EA-A3A9-E3531800BD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34C8520F-F2EC-4528-8B9E-6537A979F310} = {81874375-11E2-41A5-8215-E32C570B60EE}
+		{12299A9B-1EA4-43EA-A3A9-E3531800BD2C} = {34C8520F-F2EC-4528-8B9E-6537A979F310}
+	EndGlobalSection
+EndGlobal
